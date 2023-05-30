@@ -1,0 +1,128 @@
+body
+{
+    background-color:white;
+    
+}
+/*barra de menu*/
+.contacto
+{
+    position: relative;
+    background-color: #035397;
+    width: 110%;
+margin-top: 73px;
+margin-left: -.6%;
+height: 700px;
+}
+.contacto p
+{
+    font-size: medium;
+    color: white;
+    margin-left: 5%;
+    font-size: xx-large;
+    position: relative;
+}
+
+
+.contacto textarea
+{
+    position: relative;
+    margin-left: 5%;
+    width: 500px;
+    border-radius: 5px;
+}
+li{
+    display: inline-block;
+    
+    
+ }
+ ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   header a:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   header a:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+   /*Mandar correo */
+  .contacto input {
+    color: #FCD900;
+    border: 2px solid #FCD900;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    position: relative;
+    margin-left: 5%;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+   }
+   
+ .contacto  input:active {
+    box-shadow: 2px 2px 15px #FCD900 inset;
+    border-color: #FCD900;
+   }
+.contacto textarea
+{
+    color: #E8630A;
+    border: 2px solid #E8630A;
+    border-radius: 10px;
+    padding: 10px 25px;
+    position: relative;
+    margin-left: 5%;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+   .contacto textarea:active
+   {
+    box-shadow: 2px 2px 15px #E8630A inset;
+   }
+
+
+   .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+    
+
+#map-container {
+    grid-column: 2;
+    margin-top: 11%;
+    height: 90%;
+    margin-left: 10%;
+}
+
+#map-container iframe {
+    width: 100%;
+    height: 80%;
+    border: 0;
+}
+

@@ -1,0 +1,101 @@
+body
+{
+ background-color: white;   
+}
+  
+
+/* Imagenes*/
+section
+{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin-left: 25%;
+  
+}
+section img
+{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover
+{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+insu
+{
+    color: orange;
+    font-size: 20px;
+    margin-left: 25%;
+}
+/*slaider*/
+.insulada
+{
+   
+    aspect-ratio: 12/16;
+    width: 500px;
+    position: relative;
+    display:flex ;
+    overflow: scroll;
+    margin-left: 25%;
+    scroll-snap-type: x mandatory;/*madre para mantener la posicion actual y que no se quede a medias */
+    overflow-x: scroll;
+    overflow-y: hidden;
+   
+}
+.insulada img
+{
+width: 100%;
+left: 0;
+position: sticky;
+object-fit: cover;
+border-radius: 5px;
+scroll-snap-align: center;
+}
+
+.herreria
+{
+    aspect-ratio: 12/16;
+    width: 500px;
+    position: relative;
+    display:flex ;
+    overflow: scroll;
+    margin-left: 25%;
+    scroll-snap-type: x mandatory;
+}
+
+.herreria img
+{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
+
+.pistones
+{
+    aspect-ratio: 12/16;
+    width: 500px;
+    position: relative;
+    display:flex ;
+    overflow: scroll;
+    margin-left: 25%;
+    scroll-snap-type: x mandatory;
+}
+.pistones img
+{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}

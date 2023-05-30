@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="catalogo css.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="catalogo chico.css" media="only screen and (max-width: 768px)">
+    <link rel="shortcut icon" href="./logo final.jpeg">
+    <script>
+        function seccion(seccionId) {
+          var seccion = document.getElementById(seccionId);
+          if (seccion.style.display === 'none') {
+            seccion.style.display = 'block'; 
+          } else {
+            seccion.style.display = 'none'; 
+          }
+        }
+        </script>
+    <title>Catalogo</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="inicio.html">Inicio </a></li>
+            <li><a href="catalogo.html">Catalogo</a></li>
+            <li><a href="proyecto final temas.html">Citas</a></li>
+        </ul>
+    </header>
+    <button onclick="seccion('seccion1')">Puertas Insuladas</button>
+    <button onclick="seccion('seccion2')">Puertas de herreria</button>
+    <button onclick="seccion('seccion3')">Pistones</button>
+    <!--aca va otro boton-->
+    <div class="oculto1" id="seccion1">
+       <span> Puertas Insuladas</span>
+    <div class="insulada">   
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.04.jpeg" alt="1">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.42 (1).jpeg" alt="2">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.42.jpeg" alt="3">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.43 (1).jpeg" alt="4">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.43 (2).jpeg" alt="5">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.43.jpeg" alt="6">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.44 (1).jpeg" alt="7">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.44 (2).jpeg" alt="8">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.44 (3).jpeg" alt="9">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.45.jpeg" alt="10">
+        <img src="./Imagenes/insulada/WhatsApp Image 2023-05-22 at 19.16.46.jpeg" alt="11">
+    </div>
+    </div>
+    <div class="oculto1" id="seccion2">
+    <span>Puertas de Herreria</span>
+    <div class="insulada">
+        <img src="./Imagenes/herreria/WhatsApp Image 2023-05-22 at 19.16.49.jpeg" alt="h1">
+        <img src="./Imagenes/herreria/WhatsApp Image 2023-05-22 at 19.27.01.jpeg" alt="h2">
+        <img src="./Imagenes/herreria/WhatsApp Image 2023-05-24 at 18.00.59.jpeg" alt="h3">
+        <img src="./Imagenes/herreria/WhatsApp Image 2023-05-24 at 18.01.00.jpeg" alt="h4">
+    </div>
+    </div>
+    <div class="oculto1" id="seccion3">
+    <span>Pistones</span>
+    <div class="insulada">
+        <img src="./Imagenes/pistones/WhatsApp Image S2023-05-24 at 18.00.58.jpeg" alt="p1">
+        <img src="./Imagenes/pistones/WhatsApp Image 2023-05-24 at 18.00.58 (1).jpeg" alt="p2">
+        <img src="./Imagenes/pistones/WhatsApp Image 2023-05-24 at 18.00.59.jpeg" alt="p3">
+        <img src="./Imagenes/pistones/WhatsApp Image 2023-05-24 at 18.01.00.jpeg" alt="p4">
+    </div>
+    <video src="./videos/349335319_6258559340891474_8977811293131684200_n.mp4" type="video/mp4" controls></video>
+    </div>
+</body>
+</html>

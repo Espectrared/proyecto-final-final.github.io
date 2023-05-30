@@ -1,0 +1,23 @@
+img
+{
+    display: flex;
+    width: 45%;
+    margin-left: 55%;
+    margin-top: -37%;
+}
+h2{
+    font-size: 50px;
+    margin-left: 10%;
+    color: black;
+  }
+  p{
+    width: 50%;
+    font-size: 30px;
+  }
+  article
+  {
+    background-color: lightgray;
+    height: 600px;
+  }
+
+
